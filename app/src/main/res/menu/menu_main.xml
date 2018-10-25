@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.myapplication.MainActivity">
+
+    <item
+        android:title="opcje:"
+        android:id="@+id/opcje"
+        app:showAsAction="never"
+        android:enabled="false"
+        android:orderInCategory="100"/>
+    <item
+        android:title="1"
+        android:id="@+id/pierwszy"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:title="2"
+        android:id="@+id/drugi"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:title="3"
+        android:id="@+id/trzeci"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:title="4"
+        android:id="@+id/czwarty"
+        app:showAsAction="never"
+        android:orderInCategory="100">
+    </item>
+</menu>
